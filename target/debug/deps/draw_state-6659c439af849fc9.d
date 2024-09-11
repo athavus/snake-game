@@ -1,0 +1,10 @@
+C:\Users\Miguel Ryan\Projects Vault\mini-projetos\jogo-da-cobrinha\target\debug\deps\libdraw_state-6659c439af849fc9.rmeta: C:\Users\Miguel\ Ryan\.cargo\registry\src\index.crates.io-6f17d22bba15001f\draw_state-0.8.0\src/lib.rs C:\Users\Miguel\ Ryan\.cargo\registry\src\index.crates.io-6f17d22bba15001f\draw_state-0.8.0\src\preset.rs C:\Users\Miguel\ Ryan\.cargo\registry\src\index.crates.io-6f17d22bba15001f\draw_state-0.8.0\src\state.rs C:\Users\Miguel\ Ryan\.cargo\registry\src\index.crates.io-6f17d22bba15001f\draw_state-0.8.0\src\target.rs
+
+C:\Users\Miguel Ryan\Projects Vault\mini-projetos\jogo-da-cobrinha\target\debug\deps\libdraw_state-6659c439af849fc9.rlib: C:\Users\Miguel\ Ryan\.cargo\registry\src\index.crates.io-6f17d22bba15001f\draw_state-0.8.0\src/lib.rs C:\Users\Miguel\ Ryan\.cargo\registry\src\index.crates.io-6f17d22bba15001f\draw_state-0.8.0\src\preset.rs C:\Users\Miguel\ Ryan\.cargo\registry\src\index.crates.io-6f17d22bba15001f\draw_state-0.8.0\src\state.rs C:\Users\Miguel\ Ryan\.cargo\registry\src\index.crates.io-6f17d22bba15001f\draw_state-0.8.0\src\target.rs
+
+C:\Users\Miguel Ryan\Projects Vault\mini-projetos\jogo-da-cobrinha\target\debug\deps\draw_state-6659c439af849fc9.d: C:\Users\Miguel\ Ryan\.cargo\registry\src\index.crates.io-6f17d22bba15001f\draw_state-0.8.0\src/lib.rs C:\Users\Miguel\ Ryan\.cargo\registry\src\index.crates.io-6f17d22bba15001f\draw_state-0.8.0\src\preset.rs C:\Users\Miguel\ Ryan\.cargo\registry\src\index.crates.io-6f17d22bba15001f\draw_state-0.8.0\src\state.rs C:\Users\Miguel\ Ryan\.cargo\registry\src\index.crates.io-6f17d22bba15001f\draw_state-0.8.0\src\target.rs
+
+C:\Users\Miguel\ Ryan\.cargo\registry\src\index.crates.io-6f17d22bba15001f\draw_state-0.8.0\src/lib.rs:
+C:\Users\Miguel\ Ryan\.cargo\registry\src\index.crates.io-6f17d22bba15001f\draw_state-0.8.0\src\preset.rs:
+C:\Users\Miguel\ Ryan\.cargo\registry\src\index.crates.io-6f17d22bba15001f\draw_state-0.8.0\src\state.rs:
+C:\Users\Miguel\ Ryan\.cargo\registry\src\index.crates.io-6f17d22bba15001f\draw_state-0.8.0\src\target.rs:

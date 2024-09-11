@@ -1,0 +1,233 @@
+cargo:rustc-link-lib=dylib=user32
+cargo:rustc-link-lib=dylib=gdi32
+cargo:rustc-link-lib=dylib=comdlg32
+cargo:rustc-link-lib=dylib=shell32
+OUT_DIR = Some(C:\Users\Miguel Ryan\Projects Vault\mini-projetos\jogo-da-cobrinha\target\debug\build\pdcurses-sys-392ff8c89828b238\out)
+TARGET = Some(x86_64-pc-windows-msvc)
+OPT_LEVEL = Some(0)
+HOST = Some(x86_64-pc-windows-msvc)
+cargo:rerun-if-env-changed=VCINSTALLDIR
+VCINSTALLDIR = None
+cargo:rerun-if-env-changed=VSTEL_MSBuildProjectFullPath
+VSTEL_MSBuildProjectFullPath = None
+cargo:rerun-if-env-changed=VSCMD_ARG_VCVARS_SPECTRE
+VSCMD_ARG_VCVARS_SPECTRE = None
+cargo:rerun-if-env-changed=WindowsSdkDir
+WindowsSdkDir = None
+cargo:rerun-if-env-changed=WindowsSDKVersion
+WindowsSDKVersion = None
+cargo:rerun-if-env-changed=LIB
+LIB = None
+cargo:rerun-if-env-changed=PATH
+PATH = Some(C:\Users\Miguel Ryan\Projects Vault\mini-projetos\jogo-da-cobrinha\target\debug\deps;C:\Users\Miguel Ryan\Projects Vault\mini-projetos\jogo-da-cobrinha\target\debug;C:\Users\Miguel Ryan\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\MinGW\bin;C:\Users\Miguel Ryan\AppData\Local\Programs\Python\Python312\Lib\venv\scripts\nt\python.exe;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\MinGW\bin;C:\Users\Miguel Ryan\AppData\Local\Programs\Python\Python312\Lib\venv\scripts\nt\python.exe;C:\Users\Miguel Ryan\.cargo\bin;C:\Users\Miguel Ryan\.console-ninja\.bin;C:\Users\Miguel Ryan\AppData\Local\Programs\Python\Python312\Lib\venv\scripts\nt\python.exe;C:\Users\Miguel Ryan\AppData\Local\Microsoft\WindowsApps;C:\Users\Miguel Ryan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Miguel Ryan\AppData\Local\GitHubDesktop\bin;C:\Users\Miguel Ryan\AppData\Roaming\npm;yi-bindepend.exe, pyi-grab_version.exe, pyi-makespec.exe, pyi-set_version.exe and pyinstaller.exe are installed in 'C:\Users\Miguel Ryan\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\LocalCache\local-packages\Python312\Scripts;;C:\Users\Miguel Ryan\AppData\Local\Microsoft\WindowsApps;C:\Users\Miguel Ryan\AppData\Local\Programs\Hyper\resources\bin;C:\Program Files\Neovim\bin;c:\program files (x86)\steam\ext\bin)
+cargo:rerun-if-env-changed=INCLUDE
+INCLUDE = None
+cargo:rerun-if-env-changed=CC_x86_64-pc-windows-msvc
+CC_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CC_x86_64_pc_windows_msvc
+CC_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some(cmpxchg16b,fxsr,sse,sse2,sse3)
+DEBUG = Some(true)
+cargo:rerun-if-env-changed=CFLAGS_x86_64-pc-windows-msvc
+CFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_pc_windows_msvc
+CFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+addch.c
+addchstr.c
+addstr.c
+attr.c
+src/PDCurses/pdcurses/attr.c(205): warning C4100: 'opts': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/attr.c(224): warning C4100: 'opts': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/attr.c(247): warning C4100: 'opts': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/attr.c(254): warning C4100: 'opts': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/attr.c(261): warning C4100: 'opts': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/attr.c(268): warning C4100: 'opts': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/attr.c(275): warning C4100: 'opts': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/attr.c(294): warning C4100: 'opts': parÉmetro formal n∆o referenciado
+beep.c
+bkgd.c
+border.c
+clear.c
+color.c
+src/PDCurses/pdcurses/color.c(122): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+src/PDCurses/pdcurses/color.c(243): warning C4244: '=': convers∆o de 'int' para 'short', poss°vel perda de dados
+src/PDCurses/pdcurses/color.c(244): warning C4244: '=': convers∆o de 'int' para 'short', poss°vel perda de dados
+debug.c
+src/PDCurses/pdcurses/debug.c(52): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+src/PDCurses/pdcurses/debug.c(61): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+delch.c
+deleteln.c
+deprec.c
+getch.c
+src/PDCurses/pdcurses/getch.c(95): warning C4100: 'win': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/getch.c(381): warning C4244: '=': convers∆o de 'int' para 'wint_t', poss°vel perda de dados
+getstr.c
+src/PDCurses/pdcurses/getstr.c(323): warning C4244: '=': convers∆o de 'int' para 'wint_t', poss°vel perda de dados
+src/PDCurses/pdcurses/getstr.c(389): warning C4244: '=': convers∆o de 'int' para 'wint_t', poss°vel perda de dados
+getyx.c
+inch.c
+inchstr.c
+initscr.c
+src/PDCurses/pdcurses/initscr.c(266): warning C4100: 'infd': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/initscr.c(266): warning C4100: 'outfd': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/initscr.c(266): warning C4100: 'type': parÉmetro formal n∆o referenciado
+inopts.c
+src/PDCurses/pdcurses/inopts.c(169): warning C4100: 'bf': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/inopts.c(169): warning C4100: 'win': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/inopts.c(188): warning C4100: 'win': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/inopts.c(227): warning C4100: 'flag': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/inopts.c(227): warning C4100: 'win': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/inopts.c(264): warning C4100: 'fildes': parÉmetro formal n∆o referenciado
+insch.c
+insstr.c
+instr.c
+kernel.c
+keyname.c
+src/PDCurses/pdcurses/keyname.c(137): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+mouse.c
+move.c
+outopts.c
+src/PDCurses/pdcurses/outopts.c(83): warning C4100: 'bf': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/outopts.c(83): warning C4100: 'win': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/outopts.c(90): warning C4100: 'bf': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/outopts.c(90): warning C4100: 'win': parÉmetro formal n∆o referenciado
+overlay.c
+pad.c
+panel.c
+printw.c
+src/PDCurses/pdcurses/printw.c(54): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+refresh.c
+scanw.c
+scr_dump.c
+src/PDCurses/pdcurses/scr_dump.c(169): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+src/PDCurses/pdcurses/scr_dump.c(179): warning C4100: 'filename': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/scr_dump.c(192): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+scroll.c
+slk.c
+src/PDCurses/pdcurses/slk.c(372): warning C4100: 'opts': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/slk.c(391): warning C4100: 'opts': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/slk.c(422): warning C4100: 'opts': parÉmetro formal n∆o referenciado
+termattr.c
+src/PDCurses/pdcurses/termattr.c(115): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+terminfo.c
+src/PDCurses/pdcurses/terminfo.c(55): warning C4100: 'oldcol': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/terminfo.c(55): warning C4100: 'oldrow': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/terminfo.c(70): warning C4100: 'attr': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/terminfo.c(77): warning C4100: 'opt': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/terminfo.c(77): warning C4100: 'color_pair': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/terminfo.c(77): warning C4100: 'attr': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/terminfo.c(84): warning C4100: 'putfunc': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/terminfo.c(84): warning C4100: 'attr': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/terminfo.c(91): warning C4100: 'putfunc': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/terminfo.c(91): warning C4100: 'opt': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/terminfo.c(91): warning C4100: 'color_pair': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/terminfo.c(91): warning C4100: 'attr': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/terminfo.c(98): warning C4100: 'oterm': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/terminfo.c(105): warning C4100: 'str': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/terminfo.c(112): warning C4100: 'filedes': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/terminfo.c(112): warning C4100: 'term': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/terminfo.c(122): warning C4100: 'nterm': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/terminfo.c(129): warning C4100: 'term': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/terminfo.c(136): warning C4100: 'filedes': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/terminfo.c(136): warning C4100: 'term': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/terminfo.c(148): warning C4100: 'name': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/terminfo.c(148): warning C4100: 'bp': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/terminfo.c(155): warning C4100: 'id': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/terminfo.c(162): warning C4100: 'id': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/terminfo.c(169): warning C4100: 'area': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/terminfo.c(169): warning C4100: 'id': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/terminfo.c(176): warning C4100: 'row': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/terminfo.c(176): warning C4100: 'col': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/terminfo.c(176): warning C4100: 'cap': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/terminfo.c(183): warning C4100: 'capname': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/terminfo.c(190): warning C4100: 'capname': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/terminfo.c(197): warning C4100: 'capname': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/terminfo.c(205): warning C4100: 'p9': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/terminfo.c(205): warning C4100: 'p8': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/terminfo.c(205): warning C4100: 'p7': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/terminfo.c(205): warning C4100: 'p6': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/terminfo.c(205): warning C4100: 'p5': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/terminfo.c(204): warning C4100: 'p4': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/terminfo.c(204): warning C4100: 'p3': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/terminfo.c(204): warning C4100: 'p2': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/terminfo.c(204): warning C4100: 'p1': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/terminfo.c(204): warning C4100: 'cap': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/terminfo.c(212): warning C4100: 'putfunc': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/terminfo.c(212): warning C4100: 'affcnt': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/terminfo.c(212): warning C4100: 'str': parÉmetro formal n∆o referenciado
+touch.c
+util.c
+src/PDCurses/pdcurses/util.c(120): warning C4100: 'x': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/util.c(134): warning C4100: 'opts': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/util.c(158): warning C4100: 'opts': parÉmetro formal n∆o referenciado
+src/PDCurses/pdcurses/util.c(261): warning C4245: 'return': convers∆o de 'int' para 'size_t', incompatibilidade de signed/unsigned
+window.c
+pdcclip.c
+pdcdisp.c
+src/PDCurses/win32a/pdcdisp.c(203): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+src/PDCurses/win32a/pdcdisp.c(205): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+src/PDCurses/win32a/pdcdisp.c(207): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+src/PDCurses/win32a/pdcdisp.c(254): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+pdcgetsc.c
+pdckbd.c
+src/PDCurses/win32a/pdckbd.c(31): warning C4100: 'on': parÉmetro formal n∆o referenciado
+pdcscrn.c
+src/PDCurses/win32a/pdcscrn.c(663): warning C4456: a declaraá∆o de 'i' oculta uma declaraá∆o local anterior
+src/PDCurses/win32a/pdcscrn.c(588): note: consulte a declaraá∆o de 'i'
+src/PDCurses/win32a/pdcscrn.c(1093): warning C4996: '_wsplitpath': This function or variable may be unsafe. Consider using _wsplitpath_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+src/PDCurses/win32a/pdcscrn.c(1097): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+src/PDCurses/win32a/pdcscrn.c(1098): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+src/PDCurses/win32a/pdcscrn.c(1107): warning C4996: '_splitpath': This function or variable may be unsafe. Consider using _splitpath_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+src/PDCurses/win32a/pdcscrn.c(1111): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+src/PDCurses/win32a/pdcscrn.c(1112): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+src/PDCurses/win32a/pdcscrn.c(1114): warning C4996: 'mbstowcs': This function or variable may be unsafe. Consider using mbstowcs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+src/PDCurses/win32a/pdcscrn.c(1120): warning C4996: '_wsplitpath': This function or variable may be unsafe. Consider using _wsplitpath_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+src/PDCurses/win32a/pdcscrn.c(1121): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+src/PDCurses/win32a/pdcscrn.c(1159): warning C4996: '_wcslwr': This function or variable may be unsafe. Consider using _wcslwr_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+src/PDCurses/win32a/pdcscrn.c(1189): warning C4459: a declaraá∆o de 'menu_shown' oculta uma declaraá∆o global
+src/PDCurses/win32a/pdcscrn.c(12): note: consulte a declaraá∆o de 'menu_shown'
+src/PDCurses/win32a/pdcscrn.c(1214): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+src/PDCurses/win32a/pdcscrn.c(1390): warning C4459: a declaraá∆o de 'menu_shown' oculta uma declaraá∆o global
+src/PDCurses/win32a/pdcscrn.c(12): note: consulte a declaraá∆o de 'menu_shown'
+src/PDCurses/win32a/pdcscrn.c(1431): warning C4459: a declaraá∆o de 'menu_shown' oculta uma declaraá∆o global
+src/PDCurses/win32a/pdcscrn.c(12): note: consulte a declaraá∆o de 'menu_shown'
+src/PDCurses/win32a/pdcscrn.c(1453): warning C4996: 'swscanf': This function or variable may be unsafe. Consider using swscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+src/PDCurses/win32a/pdcscrn.c(1460): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+src/PDCurses/win32a/pdcscrn.c(1801): warning C4100: 'wParam': parÉmetro formal n∆o referenciado
+src/PDCurses/win32a/pdcscrn.c(1871): warning C4244: 'inicializando': convers∆o de 'BOOL' para 'const bool', poss°vel perda de dados
+src/PDCurses/win32a/pdcscrn.c(2533): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+src/PDCurses/win32a/pdcscrn.c(2619): warning C4100: 'i': parÉmetro formal n∆o referenciado
+src/PDCurses/win32a/pdcscrn.c(2623): warning C4100: 'i': parÉmetro formal n∆o referenciado
+C:\Users\Miguel Ryan\.cargo\registry\src\index.crates.io-6f17d22bba15001f\pdcurses-sys-0.7.1\src\PDCurses\win32a\pdcscrn.c(90) : warning C4702: c¢digo inacess°vel
+pdcsetsc.c
+pdcutil.c
+cargo:rerun-if-env-changed=AR_x86_64-pc-windows-msvc
+AR_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=AR_x86_64_pc_windows_msvc
+AR_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_AR
+HOST_AR = None
+cargo:rerun-if-env-changed=AR
+AR = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64-pc-windows-msvc
+ARFLAGS_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=ARFLAGS_x86_64_pc_windows_msvc
+ARFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_ARFLAGS
+HOST_ARFLAGS = None
+cargo:rerun-if-env-changed=ARFLAGS
+ARFLAGS = None
+cargo:rustc-link-search=native=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\atlmfc\lib\x64
+cargo:rustc-link-lib=static=pdcurses
+cargo:rustc-link-search=native=C:\Users\Miguel Ryan\Projects Vault\mini-projetos\jogo-da-cobrinha\target\debug\build\pdcurses-sys-392ff8c89828b238\out
